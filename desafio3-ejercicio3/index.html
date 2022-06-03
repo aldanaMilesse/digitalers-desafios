@@ -4,16 +4,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio-3</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <fieldset>
-        <p>Iniciar sesion</p>
-        <input type="text" placeholder="Introduzca el nombre del usuario"> <br>
-        <input type="text" placeholder="Introduxca la contraseña"> <br>
-        <input type="submit" value="Iniciar sesion">
-        <br>
-        <a>¿No se puede iniciar sesion?</a> <br>
-        <a>Registrese para crear una cuenta nueva</a>
-    </fieldset>
+    <form>
+        <fieldset>
+            <p class="tituloSuperior">Iniciar sesion</p>
+            <input type="text" placeholder="Introduzca el nombre del usuario"> <br>
+            <input type="text" placeholder="Introduzca la contraseña"> <br>
+            <button>Iniciar sesion</button>
+            <div id="bordeBooton"></div>
+            <div class="preguntas">
+                <p>¿No se puede iniciar sesion?</p>
+                <p>Registrese para crear una cuenta nueva</p>
+            </div>  
+        </fieldset>
+    </form>
 </body>
 </html>

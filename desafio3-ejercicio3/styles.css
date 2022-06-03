@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+body{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+input, button{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Mulish', sans-serif;
+}
+form{
+    width: 500px;
+    margin: auto;
+}
+.tituloSuperior{
+    font-size: 24px;
+    color: #04146c;
+    font-weight: 700;
+}
+.preguntas{
+    font-size: 18px;
+    color: #0a2ff1;
+    font-weight: 400;
+}
+button{
+    background-color: #0a2ff1;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+input{
+    font-size: 18px;
+    color: #414166;
+    font-weight: 400;
+}
+#bordeBooton{
+    border: 1px solid black;
+}
