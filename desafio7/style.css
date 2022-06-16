@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@font-face {
+    font-family: miFuente ;
+    src: url(../fuente/coolvetica\ rg.otf);
+    font-weight: bold;
+}
+div{
+    width: 20%;
+    padding: 1em;
+    background-color: #eff2ff;
+    text-align: center;
+}
+main{
+    padding: 1em;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    font-family: miFuente;
+    font-size: 120px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+h1, h2{color: #0a2ff1;}
+p{
+    font-size: 24px;
+    color: #04146c;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+img{
+    width: 25%;
+}
+#iconoApple{
+    width: 18%;
+}

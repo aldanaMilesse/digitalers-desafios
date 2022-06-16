@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@font-face {
+    font-family: miFuente ;
+    src: url(.../fuente/coolvetica\ rg.otf);
+    font-weight: bold;
+}
+h1{
+    font-family: miFuente;
+    font-weight: bold;
+    font-size: 48px;
+    color: #0a2ff1;
+}
+#infoContacto{
+    width: 10%;
+}
+#identificadores{
+    width: 20%;
+}
+#identidad{
+    width: 15%;
+}
+.privacidad{
+    background-color: #eff2ef;
+    width: 40%;
+    padding: 2em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5)
+}
+p{
+    text-align: center; 
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 21px;
+    color: #04146c;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: #0a2ff1;
+}
+.p01{
+    font-weight: 300;
+    font-size: 28px;
+    color: #04146c;
+}
