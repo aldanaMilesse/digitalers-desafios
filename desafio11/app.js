@@ -1,26 +1,14 @@
-// Ejercicio N° 1 del Desafio 11
-let costoFijo = Number(prompt("Ingrese el costo fijo: "));
-console.log(costoFijo)
+// ------- Ejercicio N° 1 del Desafio 11 ----
+let buttoCalcular = document.getElementById("calcular");
+buttoCalcular.addEventListener('click', calcular)
 
-let precioDeVenta = Number(prompt("Ingrese el precio de Venta: "))
-console.log(precioDeVenta)
+function calcular (){
+    let costoFijo = Number(document.getElementById("costoFijo").value); 
+    let precioDeVenta = Number(document.getElementById("precioDeVenta").value);
+    let costoVariables = Number(document.getElementById("costoVariable").value);
+    let mostrarResultado = document.querySelector(".mostrarResultado");
 
-let costoVariables = Number(prompt("Ingrese el costo variable: "))
-console.log(costoVariables)
+    let puntoDeEquilibrio = costoFijo / ( precioDeVenta - costoVariables );
 
-let resta = precioDeVenta - costoVariables;
-
-let puntoDeEquilibrio = costoFijo / resta;
-
-console.log(puntoDeEquilibrio)
-
-// Ejercicio N° 2 del Desafio 11
-
-let ingresoTotal = Number(prompt("Cuanto es el ingreso total? "))
-let gastosNecesarios = ingresoTotal * 50 / 100;
-let gastosOpcionales = ingresoTotal * 30 / 100;
-let ahorroEInversion = ingresoTotal * 20 / 100;
-
-console.log("el monto a dedicar a gastos necesarios es: " + gastosNecesarios);
-console.log("el monto a dedicar a gastos opcionales es: " + gastosOpcionales);
-console.log("el monto a dedicar a ahorro e inversion es: " + ahorroEInversion);
+    mostrarResultado.textContent = "El punto de equilibrio es: "+ puntoDeEquilibrio;
+}

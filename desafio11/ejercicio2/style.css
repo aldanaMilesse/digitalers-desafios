@@ -1,0 +1,19 @@
+#addCategory{
+    display: none;
+    flex-direction: column;
+    height: 47%;
+    width: 47%;
+    font-size: 20px;
+    background-color: #f98500;
+    gap: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#addCategory input,
+#newCategory
+    {
+        height: 40px;
+        width: 90%;
+        margin-left: 20px;
+    }

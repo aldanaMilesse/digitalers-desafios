@@ -4,9 +4,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ejercicio 1</title>
+    <link rel="styleSheet" href="style.css">
 </head>
 <body>
-    <script src="app.js"></script>
+    <div class="container">
+        <label for="costo_fijo">Ingrese el costo fijo: </label>
+        <input type="text" id="costoFijo" placeholder="Ingrese el costo fijo:" required name="costo_fijo">
+
+        <label for="venta">Ingrese el precio de Venta: </label>
+        <input type="text" id="precioDeVenta" placeholder="Ingrese el precio de Venta:" required name="venta"> 
+
+        <label for="costo_variable">Ingrese el costo variable: </label>
+        <input type="text" id="costoVariable" placeholder="Ingrese el costo variable:" required name="costo_variable"> 
+
+        <button id="calcular">Calcular el punto de equilibrio</button>
+
+        <div class="mostrarResultado"></div>
+    </div>
     
+    <script src="app.js"></script> 
 </body>
 </html>

@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 2</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+    <label for="monto">Monto de ingresos: </label>
+    <input type="text" name="monto" id="ingreso" placeholder="Ingrese el monto de ingresos:" required>
+
+    <button id="openForm">Añadir categoria</button>
+
+    <form id="addCategory">
+        <label for="name">Ingrese el nombre de la categoria: </label>
+        <input type="text" name="name" id="name" placeholder="Gastos necesarios" required>
+
+        <label for="presupuesto">Ingrese el presupuesto para la categoria</label>
+        <input type="text" name="presupuesto" id="presupuesto" placeholder="20" required>
+
+        <button id="newCategory">Añadir categoria y calcular presupuesto</button>
+    </form>
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th><th>Porcentaje</th> <th>Monto a dedicar a la categoria:</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
